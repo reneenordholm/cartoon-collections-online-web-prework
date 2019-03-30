@@ -5,8 +5,6 @@ end
 def summon_captain_planet(fruits, veggies)
   veggies.map! {|veggie| veggie.capitalize }
   veggies.each {|veggie| puts veggie + "!" }
-  fruits.map! {|fruit| fruit.capitalize }
-  fruits.each {|fruit| puts fruit + "!" }
 end
 
 def long_planeteer_calls# code an argument here
