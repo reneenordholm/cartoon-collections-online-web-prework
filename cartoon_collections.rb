@@ -2,9 +2,11 @@ def roll_call_dwarves(dwarves)
  dwarves.each_with_index { |dwarves, i| puts "#{i+1}. #{dwarves}" }
 end
 
-def summon_captain_planet(veggies)
+def summon_captain_planet(fruits, veggies)
   veggies.map! {|veggie| veggie.capitalize }
-  veggies.each { |veggie| puts veggie + "!" }
+  veggies.each {|veggie| puts veggie + "!" }
+  fruits.map! {|fruit| fruit.capitalize }
+  fruits.each {|fruit| puts fruit + "!" }
 end
 
 def long_planeteer_calls# code an argument here
