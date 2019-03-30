@@ -3,7 +3,8 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(veggies)
-  veggies.collect { |veggie| veggies.upcase + "!" }
+  veggies.map! {|veggie| veggie.capitalize }
+  veggies.each { |veggie| puts veggie + "!" }
 end
 
 def long_planeteer_calls# code an argument here
