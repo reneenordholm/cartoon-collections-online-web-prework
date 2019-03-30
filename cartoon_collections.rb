@@ -20,4 +20,4 @@ end
 #names.map! {|name| name.capitalize }
 
 #a = [ "a", "b", "c", "d" ]
-#a.collect {|x| x + "!"}   
+#a.collect {|x| x + "!"}
