@@ -7,8 +7,11 @@ def summon_captain_planet(veggies)
   veggies.collect {|veggies| veggies + '!' }
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(calls_long)
+  if calls_long.length > 4
+    true
+  else
+    false
 end
 
 def find_the_cheese# code an argument here
@@ -17,8 +20,3 @@ def find_the_cheese# code an argument here
 end
 
 
-#names = ['danil', 'edmund']
-#names.map! {|name| name.capitalize }
-
-#a = [ "a", "b", "c", "d" ]
-#a.collect {|x| x + "!"}
