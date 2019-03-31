@@ -17,7 +17,7 @@ end
 
 def find_the_cheese(cheddar_cheese)
   if cheddar_cheese.include?("cheddar")
-    true
+    return cheddar_cheese
   else
     nil
   # the array below is here to help
